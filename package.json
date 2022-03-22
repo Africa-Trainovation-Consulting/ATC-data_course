@@ -1,0 +1,15 @@
+{
+  "name": "atc_data_course",
+  "version": "1.0.0",
+  "description": "developing atc data-course overview page ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch assets/styles/sass/style.scss:assets/styles/css/style.css"
+  },
+  "author": "sodiq rasaq",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.49.9"
+  }
+}
