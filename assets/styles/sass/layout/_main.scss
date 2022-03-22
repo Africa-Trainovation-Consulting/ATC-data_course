@@ -1,0 +1,16 @@
+@use '../base/custom' as *;
+@use '../abstracts/mixins' as *;
+
+.main_content {
+  @include media-breakpoint-between (xs, md) {
+    text-align: center ;
+  }
+}
+
+.main_button {
+  @include media-breakpoint-between (xs, md) {
+    @include dFlex;
+
+  }
+
+}
