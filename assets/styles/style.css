@@ -11196,6 +11196,20 @@ li::before {
   transform: scale(1.1);
 }
 
+.text_justify {
+  text-align: justify;
+}
+
+.course_description article button {
+  color: #fff;
+  background-color: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.course_description article button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
 .students_feedbacks li::before {
   content: none;
 }
