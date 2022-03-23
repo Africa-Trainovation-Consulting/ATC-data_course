@@ -4,7 +4,7 @@
   "description": "developing atc data-course overview page ",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch assets/styles/sass/style.scss:assets/styles/css/style.css"
+    "compile:sass": "sass --watch assets/styles/style.scss:assets/styles/style.css"
   },
   "author": "sodiq rasaq",
   "license": "ISC",

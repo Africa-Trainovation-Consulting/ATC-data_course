@@ -11144,4 +11144,29 @@ textarea.form-control-lg {
   }
 }
 
+.students_feedbacks li::before {
+  content: none;
+}
+.students_feedbacks .progress {
+  width: 250px;
+  height: 15px;
+  margin-inline: 15px;
+  background: white;
+}
+
+.image_container {
+  width: 370px;
+  height: 370px;
+  padding: 29px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.image {
+  width: 312px;
+  height: 312px;
+  background-color: #0d6efd;
+  border-radius: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */

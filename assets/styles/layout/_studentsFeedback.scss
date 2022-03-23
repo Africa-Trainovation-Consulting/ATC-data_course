@@ -1,0 +1,28 @@
+@use '../base/custom' as *;
+@use '../abstracts/mixins' as *;
+
+.students_feedbacks {
+  li::before {
+    content: none;
+  }
+
+  .progress {
+    width: 250px;
+    height: 15px;
+    margin-inline: 15px;
+    background: white;
+  }
+}
+.image_container {
+  width: 370px;
+  height: 370px;
+  padding: 29px;
+  border: 1px solid $black;
+  border-radius: 50%;
+}
+.image {
+  width: 312px;
+  height: 312px;
+  background-color: $primary;
+  border-radius: 50%;
+}
