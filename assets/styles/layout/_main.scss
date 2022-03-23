@@ -5,12 +5,38 @@
   @include media-breakpoint-between (xs, md) {
     text-align: center ;
   }
+  p {
+    color: $gray-600;
+    .readMore {
+      color: $yellow;
+    }
+  }
+  .ratings {
+    color: $yellow;
+    .emptyStar {
+      color: #C4C4C4;
+    }
+  }
 }
+
+
 
 .main_button {
   @include media-breakpoint-between (xs, md) {
     @include dFlex;
 
   }
+
+  .btn_custom {
+    color: $primary;
+    background-color: $white;
+
+    &:hover {
+      opacity: 0.8;
+      transform: scale(1.1);
+    }
+  }
+
+  
 
 }

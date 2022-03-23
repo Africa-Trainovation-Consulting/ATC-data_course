@@ -14,15 +14,18 @@
   }
 }
 .image_container {
-  width: 370px;
-  height: 370px;
-  padding: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  
   border: 1px solid $black;
   border-radius: 50%;
 }
 .image {
-  width: 312px;
-  height: 312px;
+  width: 130px;
+  height: 130px;
   background-color: $primary;
   border-radius: 50%;
 }

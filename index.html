@@ -16,31 +16,31 @@
 
 <body>
   <!-- main section -->
-  <main class="">
+  <main class="bg-primary">
     <div class="container py-5">
       <section class="row">
         <div class="main_content col-lg-7 col-md-6  text-md-left">
-          <h1>
+          <h1 class="py-4 text-white">
             Data Science and Machine Learning with Python
           </h1>
-          <p>
+          <p class="py-2">
             Learn Python like a Professional Start from the basics and go all the way to creating your own applications
-            and games read more...
+            and games <span class="readMore">read more...</span>
           </p>
-          <div class="list-inline">
+          <div class="list-inline py-3">
             <p class="list-inline-item">4.1</p>
-            <span class="list-inline-item">
+            <span class="list-inline-item ratings">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+              <i class="fas fa-star emptyStar"></i>
             </span>
             <p class="list-inline-item">31 ratings 6 reviews</p>
           </div>
         </div>
-        <aside class="main_button col-lg-5 col-md-6 d-flex align-items-end pb-3">
-          <button type="button" class="btn btn-outline-primary btn-lg ms-md-auto">
+        <aside class="main_button col-lg-5 col-md-6 d-flex align-items-end pb-4">
+          <button type="button" class="btn btn_custom btn-lg ms-md-auto border-white">
             ENROLL NOW
           </button>
         </aside>
@@ -50,23 +50,23 @@
 
   <!-- course category section -->
 
-  <section class="course_category container">
-    <div class="row justify-content-center">
+  <section class="course_category container border-bottom">
+    <div class="row justify-content-center py-5">
       <h1 class="text-center">Course categories</h1>
-      <aside class="offline_category col-lg-4">
-        <p class="text-center">Offline</p>
-        <div class="card">
-          <div class="card-body"> 
-            <span class="price list-inline">
-              <h3 class="list-inline-item">$13.99</h3>
-              <h3 class="list-inline-item"><s>$26.99</s></h3>
+      <aside class="offline_category col-md-4">
+        <p class="text-center mb-2 mt-4 h5">Offline</p>
+        <div class="card cardShadow py-4">
+          <div class="card-body w-20 mx-auto border-bottom"> 
+            <span class="d-flex justify-content-around">
+              <h5>$13.99</h5>
+              <h5><s>$26.99</s></h5>
             </span>
-            <button class="btn btn-outline-primary btn-lg d-block">
+            <button class="btn btn-outline-primary btn-lg d-block my-3">
               ENROLL NOW
             </button>
-            <h3>course benefits</h3>
+            <h3 class="text-center">course benefits</h3>
           </div>
-          <ul class="text-left card-body">
+          <ul class="text-left card-body w-20 mx-auto">
             <li>22 hours on-demand video</li>
             <li>14 articles</li>
             <li>19 coding exercises</li>
@@ -76,20 +76,20 @@
           </ul>
         </div>
       </aside>
-      <aside class="online_category col-lg-4">
-        <p class="text-center">Online</p>
-        <div class="card">
-          <div class="card-body">
-            <span class="price list-inline">
-              <h3 class="list-inline-item">$13.99</h3>
-              <h3 class="list-inline-item"><s>$26.99</s></h3>
+      <aside class="online_category col-md-4">
+        <p class="text-center mb-2 mt-4  h5">Online</p>
+        <div class="card cardShadow onlineCard py-4">
+          <div class="card-body w-20 mx-auto border-bottom"> 
+            <span class="d-flex justify-content-around">
+              <h5>$13.99</h5>
+              <h5><s>$26.99</s></h5>
             </span>
-            <button class="btn btn-outline-primary btn-lg d-block">
+            <button class="btn btn-lg d-block my-3">
               ENROLL NOW
             </button>
-            <h3>course benefits</h3>
+            <h3 class="text-center">course benefits</h3>
           </div>
-          <ul class="card-body"> 
+          <ul class="text-left card-body w-20 mx-auto">
             <li>22 hours on-demand video</li>
             <li>14 articles</li>
             <li>19 coding exercises</li>
@@ -103,19 +103,19 @@
   </section>
 
   <!-- course description and overview -->
-  <section class="course_description container">
+  <section class="course_description container py-5">
     <div class="row">
       <div class="col-lg-7">
         <article class="">
           <button>
             Course description
           </button>
-          <p>
+          <p class="text-justify"> 
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to
             make a type specimen book.
           </p>
-          <p> 
+          <p class="text-justify"> 
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to
             make a type specimen book. It has survived not only five centuries, but also the leap into electronic
@@ -127,12 +127,12 @@
           <button>
             Course overview
           </button>
-          <p>
+          <p class="text-justify">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to
             make a type specimen book.
           </p>
-          <p>
+          <p class="text-justify"> 
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to
             make a type specimen book. It has survived not only five centuries, but also the leap into electronic
@@ -205,7 +205,7 @@
             <p>1.0%</p>
           </li>
           <li class="d-flex">
-            <p>1 star</p>
+            <p>1 star&nbsp;</p>
             <div class="progress">
               <div class="progress-bar" style="width: 1%" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
@@ -213,8 +213,8 @@
           </li>
         </ul>
       </article>
-      <article class="d-flex">
-        <span>
+      <article class="row justify-content-center">
+        <span class="col-md-4">
           <figure>
             <div class="image_container">
               <div class="image"></div>
@@ -236,7 +236,7 @@
             industry's standard dummy text ever since the 1500s when an unknown printer took
           </p>
         </span>
-        <span>
+        <span class="col-md-4">
           <figure>
             <div class="image_container">
               <div class="image"></div>
