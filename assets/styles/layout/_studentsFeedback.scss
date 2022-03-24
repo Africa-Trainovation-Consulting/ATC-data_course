@@ -34,12 +34,9 @@
 
 
 .image_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include dFlex;
   width: 150px;
   height: 150px;
-  
   border: 1px solid $black;
   border-radius: 50%;
 }
@@ -48,4 +45,10 @@
   height: 130px;
   background-color: $primary;
   border-radius: 50%;
+}
+
+.testimony {
+  @include media-breakpoint-up (md) {
+    border-right: 1px solid #3C3C3C;
+  }
 }

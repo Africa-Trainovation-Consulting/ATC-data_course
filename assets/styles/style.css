@@ -11241,8 +11241,8 @@ li::before {
 
 .image_container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 150px;
   height: 150px;
   border: 1px solid #000;
@@ -11254,6 +11254,12 @@ li::before {
   height: 130px;
   background-color: #11088A;
   border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .testimony {
+    border-right: 1px solid #3C3C3C;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
