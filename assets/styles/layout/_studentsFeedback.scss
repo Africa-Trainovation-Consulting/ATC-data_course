@@ -6,6 +6,11 @@
     content: none;
   }
 
+  .firstClass {
+    font-size: 144px;
+    font-weight: 700;
+  }
+
   .progress {
     width: 250px;
     height: 15px;
@@ -13,6 +18,8 @@
     background: white;
   }
 }
+
+
 .image_container {
   display: flex;
   align-items: center;
