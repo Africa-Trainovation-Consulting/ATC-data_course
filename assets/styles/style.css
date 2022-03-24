@@ -1974,7 +1974,7 @@ progress {
   margin-bottom: 1rem;
   color: #212529;
   vertical-align: top;
-  border-color: #dee2e6;
+  border-color: #000000;
 }
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
@@ -5335,7 +5335,7 @@ textarea.form-control-lg {
   background-color: rgba(255, 255, 255, 0.85);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0.25rem;
 }
 .toast.showing {
@@ -5462,7 +5462,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #000000;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
 }
@@ -5489,7 +5489,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: flex-end;
   padding: 0.75rem;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid #000000;
   border-bottom-right-radius: calc(0.3rem - 1px);
   border-bottom-left-radius: calc(0.3rem - 1px);
 }
@@ -6606,7 +6606,7 @@ textarea.form-control-lg {
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
 }
 
 .shadow-sm {
@@ -6702,7 +6702,7 @@ textarea.form-control-lg {
 }
 
 .border {
-  border: 1px solid #dee2e6 !important;
+  border: 1px solid #000000 !important;
 }
 
 .border-0 {
@@ -6710,7 +6710,7 @@ textarea.form-control-lg {
 }
 
 .border-top {
-  border-top: 1px solid #dee2e6 !important;
+  border-top: 1px solid #000000 !important;
 }
 
 .border-top-0 {
@@ -6718,7 +6718,7 @@ textarea.form-control-lg {
 }
 
 .border-end {
-  border-right: 1px solid #dee2e6 !important;
+  border-right: 1px solid #000000 !important;
 }
 
 .border-end-0 {
@@ -6726,7 +6726,7 @@ textarea.form-control-lg {
 }
 
 .border-bottom {
-  border-bottom: 1px solid #dee2e6 !important;
+  border-bottom: 1px solid #000000 !important;
 }
 
 .border-bottom-0 {
@@ -6734,7 +6734,7 @@ textarea.form-control-lg {
 }
 
 .border-start {
-  border-left: 1px solid #dee2e6 !important;
+  border-left: 1px solid #000000 !important;
 }
 
 .border-start-0 {
@@ -11217,9 +11217,20 @@ li::before {
 .students_feedbacks li::before {
   content: none;
 }
+@media (max-width: 767.98px) {
+  .students_feedbacks .feedback_ratings {
+    text-align: center;
+  }
+}
 .students_feedbacks .firstClass {
   font-size: 144px;
   font-weight: 700;
+}
+.students_feedbacks .newRatings {
+  color: #E5D11E;
+}
+.students_feedbacks .newRatings_* + * {
+  margin-left: 1rem;
 }
 .students_feedbacks .progress {
   width: 250px;
