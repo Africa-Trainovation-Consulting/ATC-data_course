@@ -5,6 +5,15 @@ li::before {
   color: #C4C4C4;
 }
 
+.card {
+  border-radius: 20px;
+  width: fit-content !important;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
 .cardShadow {
   box-shadow: $card-box-shadow;
 }

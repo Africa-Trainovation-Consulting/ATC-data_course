@@ -11,11 +11,27 @@
     integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
   <script src="/assets/vendors/js/bootstrap.bundle.js" defer></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" defer></script>
   <title>E-learning</title>
 </head>
 
 <body>
+  <style>
+    .top{
+      border: 1px solid rgba(83, 83, 83, 0.35);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 25px 10px;
+}
+
+
+    
+  </style>
   <!-- main section -->
   <main class="bg-primary">
     <div class="container py-5">
@@ -54,10 +70,10 @@
   <section class="course_category container border-bottom">
     <div class="row justify-content-center py-5">
       <h1 class="text-center">Course categories</h1>
-      <aside class="offline_category col-md-4">
+      <div class="offline_category col-md-5 col-lg-4">
         <p class="text-center mb-2 mt-4 h5">Offline</p>
-        <div class="card cardShadow py-4">
-          <div class="card-body w-20 mx-auto border-bottom"> 
+        <div class="cardShadow card d-grid justify-content-center align-items-center pt-4">
+          <div class="d-grid card-body border-bottom"> 
             <span class="d-flex justify-content-around">
               <h5>$13.99</h5>
               <h5><s>$26.99</s></h5>
@@ -65,22 +81,23 @@
             <button class="btn btn-lg d-block my-3">
               ENROLL NOW
             </button>
-            <h3 class="text-center">course benefits</h3>
+            <h3 >course benefits</h3>
           </div>
-          <ul class="text-left card-body w-20 mx-auto">
-            <li>22 hours on-demand video</li>
-            <li>14 articles</li>
-            <li>19 coding exercises</li>
-            <li>Full lifetime access</li>
-            <li>Access on mobile and TV</li>
-            <li>Certificate of completion</li>
+          <ul class="card-body">
+            <li class="small">22 hours on-demand video</li>
+            <li class="small">14 articles</li>
+            <li class="small">19 coding exercises</li>
+            <li class="small">Full lifetime access</li>
+            <li class="small">Access on mobile and TV</li>
+            <li class="small">Certificate of completion</li>
           </ul>
         </div>
-      </aside>
-      <aside class="online_category col-md-4">
-        <p class="text-center mb-2 mt-4  h5">Online</p>
-        <div class="card cardShadow onlineCard py-4">
-          <div class="card-body w-20 mx-auto border-bottom"> 
+      </div>
+
+      <div class="online_category col-md-5 col-lg-4">
+        <p class="text-center mb-2 mt-4 h5">Online</p>
+        <div class="cardShadow card d-grid justify-content-center align-items-center pt-4">
+          <div class="d-grid card-body border-bottom"> 
             <span class="d-flex justify-content-around">
               <h5>$13.99</h5>
               <h5><s>$26.99</s></h5>
@@ -88,18 +105,18 @@
             <button class="btn btn-lg d-block my-3">
               ENROLL NOW
             </button>
-            <h3 class="text-center">course benefits</h3>
+            <h3 class="">course benefits</h3>
           </div>
-          <ul class="text-left card-body w-20 mx-auto">
-            <li>22 hours on-demand video</li>
-            <li>14 articles</li>
-            <li>19 coding exercises</li>
-            <li>Full lifetime access</li>
-            <li>Access on mobile and TV</li>
-            <li>Certificate of completion</li>
+          <ul class="card-body">
+            <li class="small">22 hours on-demand video</li>
+            <li class="small">14 articles</li>
+            <li class="small">19 coding exercises</li>
+            <li class="small">Full lifetime access</li>
+            <li class="small">Access on mobile and TV</li>
+            <li class="small">Certificate of completion</li>
           </ul>
         </div>
-      </aside>
+      </div>
     </div>
   </section>
 
@@ -165,6 +182,7 @@
   <!-- students feedback section -->
   <section class="students_feedbacks">
     <div class="container">
+      <h1 class="text-center">Students Feedbacks</h1>
       <article class="row justify-content-center">
         <span class="col-md-4 feedback_ratings text-md-left">
           <p class="text-primary firstClass">4.7</p>
@@ -217,53 +235,170 @@
         </ul>
       </article>
       <article class="row justify-content-center my-5 ">
-        <span class="col-md-4 testimony">
-          <figure class="text-center ">
-            <div class="image_container mx-auto">
-              <div class="image"></div>
-            </div>
-            <figcaption >
-              <h4 class="my-3"><em>-Abel Babatunde</em></h4>
-              <p>21st Jan. 2021</p>
-              <p class="newRatings">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star ms-2"></i>
-                <i class="fas fa-star ms-2"></i>
-                <i class="fas fa-star ms-2"></i>
-                <i class="fas fa-star ms-2"></i>
-              </p>
-            </figcaption>
-          </figure>
-          <p class="text-center">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s when an unknown printer took
-          </p>
-        </span>
-        <span class="col-md-4">
-          <figure class="text-center">
-            <div class="image_container mx-auto">
-              <div class="image"></div>
-            </div>
-            <figcaption>
-              <h4 class="my-3"><em>-John Kent</em></h4>
-              <p>21st Jan. 2021</p>
-              <p class="newRatings">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star ms-2"></i>
-                <i class="fas fa-star ms-2"></i>
-                <i class="fas fa-star ms-2"></i>
-                <i class="fas fa-star ms-2"></i>
-              </p>
-            </figcaption>
-          </figure>
-          <p class="text-center">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s when an unknown printer took
-          </p>
-        </span>
+        <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <span class="col-md-4 testimony">
+        <figure class="text-center ">
+          <div class="image_container mx-auto">
+            <div class="image"></div>
+          </div>
+          <figcaption >
+            <h4 class="my-3"><em>-Abel Babatunde</em></h4>
+            <p>21st Jan. 2021</p>
+            <p class="newRatings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+            </p>
+          </figcaption>
+        </figure>
+        <p class="text-center">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s when an unknown printer took
+        </p>
+      </span>
+      <span class="col-md-4">
+        <figure class="text-center">
+          <div class="image_container mx-auto">
+            <div class="image"></div>
+          </div>
+          <figcaption>
+            <h4 class="my-3"><em>-John Kent</em></h4>
+            <p>21st Jan. 2021</p>
+            <p class="newRatings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+            </p>
+          </figcaption>
+        </figure>
+        <p class="text-center">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s when an unknown printer took
+        </p>
+      </span>
+    </div>
+    <div class="swiper-slide d-flex">
+      <span class="col-md-4 testimony">
+        <figure class="text-center ">
+          <div class="image_container mx-auto">
+            <div class="image"></div>
+          </div>
+          <figcaption >
+            <h4 class="my-3"><em>-Abel Babatunde</em></h4>
+            <p>21st Jan. 2021</p>
+            <p class="newRatings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+            </p>
+          </figcaption>
+        </figure>
+        <p class="text-center">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s when an unknown printer took
+        </p>
+      </span>
+      <span class="col-md-4">
+        <figure class="text-center">
+          <div class="image_container mx-auto">
+            <div class="image"></div>
+          </div>
+          <figcaption>
+            <h4 class="my-3"><em>-John Kent</em></h4>
+            <p>21st Jan. 2021</p>
+            <p class="newRatings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+            </p>
+          </figcaption>
+        </figure>
+        <p class="text-center">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s when an unknown printer took
+        </p>
+      </span>
+    </div>
+    <div class="swiper-slide d-flex">
+      <span class="col-md-4 testimony">
+        <figure class="text-center ">
+          <div class="image_container mx-auto">
+            <div class="image"></div>
+          </div>
+          <figcaption >
+            <h4 class="my-3"><em>-Abel Babatunde</em></h4>
+            <p>21st Jan. 2021</p>
+            <p class="newRatings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+            </p>
+          </figcaption>
+        </figure>
+        <p class="text-center">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s when an unknown printer took
+        </p>
+      </span>
+      <span class="col-md-4">
+        <figure class="text-center">
+          <div class="image_container mx-auto">
+            <div class="image"></div>
+          </div>
+          <figcaption>
+            <h4 class="my-3"><em>-John Kent</em></h4>
+            <p>21st Jan. 2021</p>
+            <p class="newRatings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+              <i class="fas fa-star ms-2"></i>
+            </p>
+          </figcaption>
+        </figure>
+        <p class="text-center">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s when an unknown printer took
+        </p>
+      </span>
+    </div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+        
+       
       </article>
     </div>
   </section>
+ 
+ <script src="swipe.js"></script> 
+<script src="/assets/vendors/js/bootstrap.bundle.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
 </html>
