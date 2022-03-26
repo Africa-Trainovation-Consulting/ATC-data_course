@@ -11227,6 +11227,9 @@ li::before {
 .students_feedbacks li::before {
   content: none;
 }
+.students_feedbacks .feedback_ratings {
+  width: fit-content !important;
+}
 @media (max-width: 767.98px) {
   .students_feedbacks .feedback_ratings {
     text-align: center;

@@ -10,6 +10,7 @@
     @include media-breakpoint-between (xs, md) {
       text-align: center ;
     }
+    width: fit-content !important;
   }
 
   .firstClass {
